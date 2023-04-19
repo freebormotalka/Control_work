@@ -35,7 +35,7 @@ void PrintArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write($"Элементы соответствующие требованиям массива[{array[i]}]");
+        Console.WriteLine($"Элементы соответствующие требованиям массива[{array[i]}]");
     }   
     Console.WriteLine();
 }
